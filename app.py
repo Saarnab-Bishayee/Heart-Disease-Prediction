@@ -13,8 +13,8 @@ st.set_page_config(
 )
 
 # Load the trained model and preprocessor
-model = joblib.load("models\heart_disease_model.pkl")
-preprocessor = joblib.load("models\preprocessor.pkl")
+model = joblib.load("models/heart_disease_model.pkl")
+preprocessor = joblib.load("models/preprocessor.pkl")
 
 # Sidebar
 st.sidebar.title("❤️ Heart Disease Prediction")
